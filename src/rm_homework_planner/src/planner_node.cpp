@@ -86,7 +86,7 @@ std::vector<Cell> aStar(const Grid& map, const Cell& start, const Cell& goal){
                 continue;
             }
 
-            int new_g = g + 100;
+            int new_g = g + 100 + map.data[neighbor_id];
             if(new_g < best[neighbor_id]){
                 best[neighbor_id] = new_g;
                 parent[neighbor_id] = current;
