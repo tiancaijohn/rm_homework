@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target homework_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/homework_planner.dir/src/planner_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable homework_planner[0m
+[100%] Built target homework_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/lib/rm_homework_planner/homework_planner
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/package_run_dependencies/rm_homework_planner
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/parent_prefix_path/rm_homework_planner
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/path.sh
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/path.dsv
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.bash
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.sh
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.zsh
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.dsv
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/package.dsv
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/packages/rm_homework_planner
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/cmake/rm_homework_plannerConfig.cmake
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/cmake/rm_homework_plannerConfig-version.cmake
+-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/package.xml

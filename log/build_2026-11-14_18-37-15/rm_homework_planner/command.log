@@ -1,0 +1,4 @@
+Invoking command in '/home/john/rm_homework/build/rm_homework_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/rm_homework/src/rm_homework_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/john/rm_homework/install/rm_homework_planner
+Invoked command in '/home/john/rm_homework/build/rm_homework_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/john/rm_homework/src/rm_homework_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/john/rm_homework/install/rm_homework_planner
+Invoking command in '/home/john/rm_homework/build/rm_homework_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/rm_homework/build/rm_homework_planner -- -j2 -l2
+Invoked command in '/home/john/rm_homework/build/rm_homework_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/rm_homework/build/rm_homework_planner -- -j2 -l2

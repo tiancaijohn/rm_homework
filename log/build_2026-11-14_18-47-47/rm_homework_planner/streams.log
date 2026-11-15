@@ -1,0 +1,26 @@
+[0.038s] Invoking command in '/home/john/rm_homework/build/rm_homework_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/rm_homework/build/rm_homework_planner -- -j2 -l2
+[0.303s] [35m[1mConsolidate compiler generated dependencies of target homework_planner[0m
+[0.412s] [ 50%] [32mBuilding CXX object CMakeFiles/homework_planner.dir/src/planner_node.cpp.o[0m
+[17.212s] [100%] [32m[1mLinking CXX executable homework_planner[0m
+[18.473s] [100%] Built target homework_planner
+[18.513s] Invoked command in '/home/john/rm_homework/build/rm_homework_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/rm_homework/build/rm_homework_planner -- -j2 -l2
+[18.561s] Invoking command in '/home/john/rm_homework/build/rm_homework_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/rm_homework/build/rm_homework_planner
+[18.584s] -- Install configuration: ""
+[18.586s] -- Execute custom install script
+[18.588s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/lib/rm_homework_planner/homework_planner
+[18.645s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/package_run_dependencies/rm_homework_planner
+[18.685s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/parent_prefix_path/rm_homework_planner
+[18.728s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/ament_prefix_path.sh
+[18.787s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/ament_prefix_path.dsv
+[18.819s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/path.sh
+[18.841s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/path.dsv
+[18.877s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.bash
+[18.925s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.sh
+[18.951s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.zsh
+[18.976s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.dsv
+[19.013s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/package.dsv
+[19.040s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/packages/rm_homework_planner
+[19.065s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/cmake/rm_homework_plannerConfig.cmake
+[19.094s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/cmake/rm_homework_plannerConfig-version.cmake
+[19.116s] -- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/package.xml
+[19.154s] Invoked command in '/home/john/rm_homework/build/rm_homework_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/john/rm_homework/build/rm_homework_planner

@@ -1,0 +1,241 @@
+[0.086s] Invoking command in '/home/john/rm_homework/build/rm_homework_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/rm_homework/build/rm_homework_planner -- -j2 -l2
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target homework_planner[0m
+[0.459s] [ 50%] [32mBuilding CXX object CMakeFiles/homework_planner.dir/src/planner_node.cpp.o[0m
+[8.459s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:10:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPointStamper[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KPointStamped[m[K’?
+[8.460s]    10 |     using Click = geometry_msgs::msg::[01;31m[KPointStamper[m[K;
+[8.460s]       |                                       [01;31m[K^~~~~~~~~~~~[m[K
+[8.460s]       |                                       [32m[KPointStamped[m[K
+[8.460s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:14:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KHomeworkerPlanner[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.460s]    14 |     [01;31m[KHomeworkerPlanner[m[K() : Node("HomeworkPlannner"){
+[8.460s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.460s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:26:24:[m[K [01;31m[Kerror: [m[K‘[01m[KClick[m[K’ does not name a type
+[8.460s]    26 |     void onClick(const [01;31m[KClick[m[K& click)
+[8.461s]       |                        [01;31m[K^~~~~[m[K
+[8.467s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:54:19:[m[K [01;31m[Kerror: [m[K‘[01m[KClick[m[K’ was not declared in this scope
+[8.467s]    54 |     std::optional<[01;31m[KClick[m[K> start_;
+[8.467s]       |                   [01;31m[K^~~~~[m[K
+[8.467s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:54:24:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.467s]    54 |     std::optional<Click[01;31m[K>[m[K start_;
+[8.467s]       |                        [01;31m[K^[m[K
+[8.473s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:26:[m[K [01;31m[Kerror: [m[K‘[01m[KClick[m[K’ was not declared in this scope
+[8.474s]    56 |     rclcpp::Subscription<[01;31m[KClick[m[K>::SharedPtr click_sub_;
+[8.474s]       |                          [01;31m[K^~~~~[m[K
+[8.475s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.475s]    56 |     rclcpp::Subscription<Click[01;31m[K>[m[K::SharedPtr click_sub_;
+[8.475s]       |                               [01;31m[K^[m[K
+[8.475s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[8.475s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[8.475s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[8.476s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.477s]    56 |     rclcpp::Subscription<Click>::[01;31m[KSharedPtr[m[K click_sub_;
+[8.478s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[8.478s]       |                                           [32m[K;[m[K
+[8.479s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kclick_sub_[m[K’ does not name a type
+[8.479s]    56 |     rclcpp::Subscription<Click>::SharedPtr [01;31m[Kclick_sub_[m[K;
+[8.479s]       |                                            [01;31m[K^~~~~~~~~~[m[K
+[8.480s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:[m[K In member function ‘[01m[Kint HomeworkPlanner::HomeworkerPlanner()[m[K’:
+[8.480s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:14:27:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[8.481s]    14 |     HomeworkerPlanner() : [01;31m[KNode[m[K("HomeworkPlannner"){
+[8.481s]       |                           [01;31m[K^~~~[m[K
+[8.485s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclick_sub_[m[K’ was not declared in this scope
+[8.485s]    17 |         [01;31m[Kclick_sub_[m[K = create_subscription<Click>("/clicked_point", 10,
+[8.486s]       |         [01;31m[K^~~~~~~~~~[m[K
+[8.488s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:42:[m[K [01;31m[Kerror: [m[K‘[01m[KClick[m[K’ was not declared in this scope
+[8.491s]    17 |         click_sub_ = create_subscription<[01;31m[KClick[m[K>("/clicked_point", 10,
+[8.491s]       |                                          [01;31m[K^~~~~[m[K
+[8.491s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[KClick[m[K’ is not a class, namespace, or enumeration
+[8.491s]    18 |         [this]([01;31m[KClick[m[K::ConstSharedPtr msg){
+[8.491s]       |                [01;31m[K^~~~~[m[K
+[8.491s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:18:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kmsg[m[K’
+[8.492s]    18 |         [this](Click::ConstSharedPtr [01;31m[Kmsg[m[K){
+[8.492s]       |                                      [01;31m[K^~~[m[K
+[8.492s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:[m[K In lambda function:
+[8.492s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:19:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[8.492s]    19 |             onClick(*[01;31m[Kmsg[m[K);
+[8.492s]       |                      [01;31m[K^~~[m[K
+[8.495s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:19:22:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[8.496s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:21[m[K,
+[8.496s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:21[m[K,
+[8.497s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:7[m[K,
+[8.497s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:4[m[K:
+[8.497s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[8.497s]    28 | namespace [01;36m[Kmsg[m[K
+[8.497s]       |           [01;36m[K^~~[m[K
+[8.498s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:21[m[K,
+[8.499s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:7[m[K,
+[8.499s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:4[m[K:
+[8.499s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[8.499s]    32 | namespace [01;36m[Kmsg[m[K
+[8.499s]       |           [01;36m[K^~~[m[K
+[8.500s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:23[m[K,
+[8.500s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:7[m[K,
+[8.501s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:4[m[K:
+[8.501s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[8.501s]    28 | namespace [01;36m[Kmsg[m[K
+[8.502s]       |           [01;36m[K^~~[m[K
+[8.502s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[8.502s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:6[m[K:
+[8.503s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg[m[K’
+[8.503s]    34 | namespace [01;36m[Kmsg[m[K
+[8.503s]       |           [01;36m[K^~~[m[K
+[8.504s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[8.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[8.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[8.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[8.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[8.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.507s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7[m[K:
+[8.508s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[8.508s]    28 | namespace [01;36m[Kmsg[m[K
+[8.508s]       |           [01;36m[K^~~[m[K
+[8.510s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:24[m[K,
+[8.510s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[8.510s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[8.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[8.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[8.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[8.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.513s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7[m[K:
+[8.513s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[8.516s]    28 | namespace [01;36m[Kmsg[m[K
+[8.517s]       |           [01;36m[K^~~[m[K
+[8.517s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:18:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KConstSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.517s]    18 |         [this]([01;35m[KClick::ConstSharedPtr[m[K msg){
+[8.518s]       |                [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.520s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:[m[K In member function ‘[01m[Kint HomeworkPlanner::HomeworkerPlanner()[m[K’:
+[8.521s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHomeworkPlanner::create_subscription<<expression error> >(const char [15], int, HomeworkPlanner::HomeworkerPlanner()::<lambda(int)>)[m[K’
+[8.522s]    17 |         click_sub_ = [01;31m[Kcreate_subscription<Click>("/clicked_point", 10,[m[K
+[8.522s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.523s]    18 | [01;31m[K        [this](Click::ConstSharedPtr msg){[m[K
+[8.523s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+[8.525s]    19 | [01;31m[K            onClick(*msg);[m[K
+[8.525s]       |             [01;31m[K~~~~~~~~~~~~~~[m[K                      
+[8.526s]    20 | [01;31m[K        })[m[K;
+[8.532s]       |         [01;31m[K~~[m[K                                      
+[8.533s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.538s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7[m[K:
+[8.539s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[8.541s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[8.541s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.541s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.541s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.541s]    17 |         click_sub_ = [01;31m[Kcreate_subscription<Click>("/clicked_point", 10,[m[K
+[8.541s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.541s]    18 | [01;31m[K        [this](Click::ConstSharedPtr msg){[m[K
+[8.541s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+[8.544s]    19 | [01;31m[K            onClick(*msg);[m[K
+[8.545s]       |             [01;31m[K~~~~~~~~~~~~~~[m[K                      
+[8.545s]    20 | [01;31m[K        })[m[K;
+[8.546s]       |         [01;31m[K~~[m[K                                      
+[8.546s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:23:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.547s]    23 |     [01;35m[K}[m[K
+[8.547s]       |     [01;35m[K^[m[K
+[8.549s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:[m[K In member function ‘[01m[Kvoid HomeworkPlanner::onClick(const int&)[m[K’:
+[8.550s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:28:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[8.551s]    28 |         if(!start_ || start_[01;31m[K->[m[Kheader.frame_id != click.header.frame_id){
+[8.551s]       |                             [01;31m[K^~[m[K
+[8.551s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:28:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheader[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.551s]    28 |         if(!start_ || start_->header.frame_id != click.[01;31m[Kheader[m[K.frame_id){
+[8.551s]       |                                                        [01;31m[K^~~~~~[m[K
+[8.552s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.563s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.563s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.564s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7[m[K:
+[8.564s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:30:75:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoint[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.564s]    30 |             RCLCPP_INFO(get_logger(), "Start saved : (%.2f, %.2f)", click.[01;31m[Kpoint[m[K.x, click.point.y);
+[8.565s]       |                                                                           [01;31m[K^~~~~[m[K
+[8.567s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:30:90:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoint[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.568s]    30 |             RCLCPP_INFO(get_logger(), "Start saved : (%.2f, %.2f)", click.point.x, click.[01;31m[Kpoint[m[K.y);
+[8.570s]       |                                                                                          [01;31m[K^~~~~[m[K
+[8.572s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:35:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheader[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.572s]    35 |         path.header.frame_id = click.[01;31m[Kheader[m[K.frame_id;
+[8.572s]       |                                      [01;31m[K^~~~~~[m[K
+[8.572s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:42:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[8.575s]    42 |         pose.pose.position = start_[01;31m[K->[m[Kpoint;
+[8.576s]       |                                    [01;31m[K^~[m[K
+[8.576s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:45:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoint[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.577s]    45 |         pose.pose.position = click.[01;31m[Kpoint[m[K;
+[8.578s]       |                                    [01;31m[K^~~~~[m[K
+[8.578s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:49:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kreset[m[K’ in ‘[01m[K((HomeworkPlanner*)this)->HomeworkPlanner::start_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[8.579s]    49 |         start_.[01;31m[Kreset[m[K();
+[8.579s]       |                [01;31m[K^~~~~[m[K
+[8.579s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.584s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7[m[K:
+[8.585s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:51:78:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoint[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.586s]    51 |         RCLCPP_INFO(get_logger(), "Path published: goal (%.2f, %.2f)", click.[01;31m[Kpoint[m[K.x, click.point.y);
+[8.586s]       |                                                                              [01;31m[K^~~~~[m[K
+[8.586s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:51:93:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoint[m[K’ in ‘[01m[Kclick[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.587s]    51 |         RCLCPP_INFO(get_logger(), "Path published: goal (%.2f, %.2f)", click.point.x, click.[01;31m[Kpoint[m[K.y);
+[8.587s]       |                                                                                             [01;31m[K^~~~~[m[K
+[9.288s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[9.288s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[9.288s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[9.288s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:1[m[K:
+[9.289s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = HomeworkPlanner; _Args = {}; _Tp = HomeworkPlanner][m[K’:
+[9.291s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = HomeworkPlanner; _Args = {}; _Tp = HomeworkPlanner; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<HomeworkPlanner>][m[K’
+[9.292s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = HomeworkPlanner; _Alloc = std::allocator<HomeworkPlanner>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.292s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = HomeworkPlanner; _Alloc = std::allocator<HomeworkPlanner>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.292s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<HomeworkPlanner>; _Args = {}; _Tp = HomeworkPlanner; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.292s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<HomeworkPlanner>; _Args = {}; _Tp = HomeworkPlanner][m[K’
+[9.293s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = HomeworkPlanner; _Alloc = std::allocator<HomeworkPlanner>; _Args = {}][m[K’
+[9.295s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = HomeworkPlanner; _Args = {}][m[K’
+[9.296s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:62:50:[m[K   required from here
+[9.296s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KHomeworkPlanner::HomeworkPlanner()[m[K’
+[9.297s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[9.297s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.297s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[KHomeworkPlanner::HomeworkPlanner()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[9.297s]     9 | class [01;36m[KHomeworkPlanner[m[K : public rclcpp::Node {
+[9.297s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[9.297s] [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:9:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[9.298s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[9.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[9.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.302s]                  from [01m[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7[m[K:
+[9.302s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[9.302s]  1294 |   [01;36m[KNode[m[K(
+[9.302s]       |   [01;36m[K^~~~[m[K
+[9.302s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.303s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[9.304s]   101 |   explicit [01;36m[KNode[m[K(
+[9.306s]       |            [01;36m[K^~~~[m[K
+[9.306s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[9.307s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[9.307s]    89 |   explicit [01;36m[KNode[m[K(
+[9.307s]       |            [01;36m[K^~~~[m[K
+[9.307s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.710s] gmake[2]: *** [CMakeFiles/homework_planner.dir/build.make:76：CMakeFiles/homework_planner.dir/src/planner_node.cpp.o] 错误 1
+[9.711s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/homework_planner.dir/all] 错误 2
+[9.712s] gmake: *** [Makefile:146：all] 错误 2
+[9.720s] Invoked command in '/home/john/rm_homework/build/rm_homework_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/john/rm_homework/build/rm_homework_planner -- -j2 -l2

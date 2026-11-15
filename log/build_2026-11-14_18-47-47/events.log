@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000911] (rm_homework_planner) JobQueued: {'identifier': 'rm_homework_planner', 'dependencies': OrderedDict()}
+[0.001367] (rm_homework_planner) JobStarted: {'identifier': 'rm_homework_planner'}
+[0.029630] (rm_homework_planner) JobProgress: {'identifier': 'rm_homework_planner', 'progress': 'cmake'}
+[0.029914] (rm_homework_planner) JobProgress: {'identifier': 'rm_homework_planner', 'progress': 'build'}
+[0.030670] (rm_homework_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/john/rm_homework/build/rm_homework_planner', '--', '-j2', '-l2'], 'cwd': '/home/john/rm_homework/build/rm_homework_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'john'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/john'), ('OLDPWD', '/home/john'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'john'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'john'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/john-virtual-machine:@/tmp/.ICE-unix/1219,unix/john-virtual-machine:/tmp/.ICE-unix/1219'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65049924_459c_4bec_898b_86aafa4aa6a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PHB1X3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/john/rm_homework/build/rm_homework_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100214] (-) TimerEvent: {}
+[0.202308] (-) TimerEvent: {}
+[0.303652] (rm_homework_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target homework_planner\x1b[0m\n'}
+[0.304412] (-) TimerEvent: {}
+[0.405779] (-) TimerEvent: {}
+[0.412800] (rm_homework_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/homework_planner.dir/src/planner_node.cpp.o\x1b[0m\n'}
+[0.507402] (-) TimerEvent: {}
+[0.613252] (-) TimerEvent: {}
+[0.714085] (-) TimerEvent: {}
+[0.815461] (-) TimerEvent: {}
+[0.918239] (-) TimerEvent: {}
+[1.020235] (-) TimerEvent: {}
+[1.123295] (-) TimerEvent: {}
+[1.225834] (-) TimerEvent: {}
+[1.328620] (-) TimerEvent: {}
+[1.431253] (-) TimerEvent: {}
+[1.533253] (-) TimerEvent: {}
+[1.633921] (-) TimerEvent: {}
+[1.737264] (-) TimerEvent: {}
+[1.839265] (-) TimerEvent: {}
+[1.939878] (-) TimerEvent: {}
+[2.040820] (-) TimerEvent: {}
+[2.142353] (-) TimerEvent: {}
+[2.243648] (-) TimerEvent: {}
+[2.344452] (-) TimerEvent: {}
+[2.445365] (-) TimerEvent: {}
+[2.546258] (-) TimerEvent: {}
+[2.646866] (-) TimerEvent: {}
+[2.747462] (-) TimerEvent: {}
+[2.848253] (-) TimerEvent: {}
+[2.948909] (-) TimerEvent: {}
+[3.049571] (-) TimerEvent: {}
+[3.151287] (-) TimerEvent: {}
+[3.253246] (-) TimerEvent: {}
+[3.355250] (-) TimerEvent: {}
+[3.455799] (-) TimerEvent: {}
+[3.558274] (-) TimerEvent: {}
+[3.659286] (-) TimerEvent: {}
+[3.760604] (-) TimerEvent: {}
+[3.861894] (-) TimerEvent: {}
+[3.964581] (-) TimerEvent: {}
+[4.065491] (-) TimerEvent: {}
+[4.166190] (-) TimerEvent: {}
+[4.266710] (-) TimerEvent: {}
+[4.368411] (-) TimerEvent: {}
+[4.469331] (-) TimerEvent: {}
+[4.570213] (-) TimerEvent: {}
+[4.670805] (-) TimerEvent: {}
+[4.771424] (-) TimerEvent: {}
+[4.872019] (-) TimerEvent: {}
+[4.972686] (-) TimerEvent: {}
+[5.073228] (-) TimerEvent: {}
+[5.174318] (-) TimerEvent: {}
+[5.275778] (-) TimerEvent: {}
+[5.377514] (-) TimerEvent: {}
+[5.478312] (-) TimerEvent: {}
+[5.579310] (-) TimerEvent: {}
+[5.680412] (-) TimerEvent: {}
+[5.781520] (-) TimerEvent: {}
+[5.882733] (-) TimerEvent: {}
+[5.983815] (-) TimerEvent: {}
+[6.084889] (-) TimerEvent: {}
+[6.185762] (-) TimerEvent: {}
+[6.287565] (-) TimerEvent: {}
+[6.388175] (-) TimerEvent: {}
+[6.489316] (-) TimerEvent: {}
+[6.589906] (-) TimerEvent: {}
+[6.690537] (-) TimerEvent: {}
+[6.791492] (-) TimerEvent: {}
+[6.892370] (-) TimerEvent: {}
+[6.995454] (-) TimerEvent: {}
+[7.097337] (-) TimerEvent: {}
+[7.198753] (-) TimerEvent: {}
+[7.299685] (-) TimerEvent: {}
+[7.400860] (-) TimerEvent: {}
+[7.501581] (-) TimerEvent: {}
+[7.602260] (-) TimerEvent: {}
+[7.703276] (-) TimerEvent: {}
+[7.804596] (-) TimerEvent: {}
+[7.905569] (-) TimerEvent: {}
+[8.006196] (-) TimerEvent: {}
+[8.107228] (-) TimerEvent: {}
+[8.209435] (-) TimerEvent: {}
+[8.310401] (-) TimerEvent: {}
+[8.411609] (-) TimerEvent: {}
+[8.512566] (-) TimerEvent: {}
+[8.617644] (-) TimerEvent: {}
+[8.721147] (-) TimerEvent: {}
+[8.824445] (-) TimerEvent: {}
+[8.925425] (-) TimerEvent: {}
+[9.026423] (-) TimerEvent: {}
+[9.129306] (-) TimerEvent: {}
+[9.229953] (-) TimerEvent: {}
+[9.330713] (-) TimerEvent: {}
+[9.431408] (-) TimerEvent: {}
+[9.532261] (-) TimerEvent: {}
+[9.633574] (-) TimerEvent: {}
+[9.734233] (-) TimerEvent: {}
+[9.835979] (-) TimerEvent: {}
+[9.936741] (-) TimerEvent: {}
+[10.039041] (-) TimerEvent: {}
+[10.140274] (-) TimerEvent: {}
+[10.241601] (-) TimerEvent: {}
+[10.342957] (-) TimerEvent: {}
+[10.444218] (-) TimerEvent: {}
+[10.544821] (-) TimerEvent: {}
+[10.645474] (-) TimerEvent: {}
+[10.746220] (-) TimerEvent: {}
+[10.846827] (-) TimerEvent: {}
+[10.947597] (-) TimerEvent: {}
+[11.049038] (-) TimerEvent: {}
+[11.151245] (-) TimerEvent: {}
+[11.252386] (-) TimerEvent: {}
+[11.354599] (-) TimerEvent: {}
+[11.456139] (-) TimerEvent: {}
+[11.556885] (-) TimerEvent: {}
+[11.659251] (-) TimerEvent: {}
+[11.760214] (-) TimerEvent: {}
+[11.861421] (-) TimerEvent: {}
+[11.962453] (-) TimerEvent: {}
+[12.063032] (-) TimerEvent: {}
+[12.163906] (-) TimerEvent: {}
+[12.264987] (-) TimerEvent: {}
+[12.366872] (-) TimerEvent: {}
+[12.467664] (-) TimerEvent: {}
+[12.568392] (-) TimerEvent: {}
+[12.669324] (-) TimerEvent: {}
+[12.770192] (-) TimerEvent: {}
+[12.871569] (-) TimerEvent: {}
+[12.972988] (-) TimerEvent: {}
+[13.073660] (-) TimerEvent: {}
+[13.174725] (-) TimerEvent: {}
+[13.275380] (-) TimerEvent: {}
+[13.376165] (-) TimerEvent: {}
+[13.476682] (-) TimerEvent: {}
+[13.579245] (-) TimerEvent: {}
+[13.680491] (-) TimerEvent: {}
+[13.781150] (-) TimerEvent: {}
+[13.883864] (-) TimerEvent: {}
+[13.985150] (-) TimerEvent: {}
+[14.086237] (-) TimerEvent: {}
+[14.187212] (-) TimerEvent: {}
+[14.287793] (-) TimerEvent: {}
+[14.388510] (-) TimerEvent: {}
+[14.490426] (-) TimerEvent: {}
+[14.591217] (-) TimerEvent: {}
+[14.693491] (-) TimerEvent: {}
+[14.794906] (-) TimerEvent: {}
+[14.896433] (-) TimerEvent: {}
+[14.997403] (-) TimerEvent: {}
+[15.098519] (-) TimerEvent: {}
+[15.199506] (-) TimerEvent: {}
+[15.300138] (-) TimerEvent: {}
+[15.400890] (-) TimerEvent: {}
+[15.501930] (-) TimerEvent: {}
+[15.602622] (-) TimerEvent: {}
+[15.703308] (-) TimerEvent: {}
+[15.804645] (-) TimerEvent: {}
+[15.905959] (-) TimerEvent: {}
+[16.007370] (-) TimerEvent: {}
+[16.108754] (-) TimerEvent: {}
+[16.209457] (-) TimerEvent: {}
+[16.310989] (-) TimerEvent: {}
+[16.411921] (-) TimerEvent: {}
+[16.512892] (-) TimerEvent: {}
+[16.615371] (-) TimerEvent: {}
+[16.716725] (-) TimerEvent: {}
+[16.817647] (-) TimerEvent: {}
+[16.919783] (-) TimerEvent: {}
+[17.022716] (-) TimerEvent: {}
+[17.123437] (-) TimerEvent: {}
+[17.213604] (rm_homework_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable homework_planner\x1b[0m\n'}
+[17.225785] (-) TimerEvent: {}
+[17.326565] (-) TimerEvent: {}
+[17.427238] (-) TimerEvent: {}
+[17.528016] (-) TimerEvent: {}
+[17.629407] (-) TimerEvent: {}
+[17.730225] (-) TimerEvent: {}
+[17.830917] (-) TimerEvent: {}
+[17.931899] (-) TimerEvent: {}
+[18.032804] (-) TimerEvent: {}
+[18.133588] (-) TimerEvent: {}
+[18.235491] (-) TimerEvent: {}
+[18.340444] (-) TimerEvent: {}
+[18.441260] (-) TimerEvent: {}
+[18.474448] (rm_homework_planner) StdoutLine: {'line': b'[100%] Built target homework_planner\n'}
+[18.514225] (rm_homework_planner) CommandEnded: {'returncode': 0}
+[18.514694] (rm_homework_planner) JobProgress: {'identifier': 'rm_homework_planner', 'progress': 'install'}
+[18.541601] (-) TimerEvent: {}
+[18.561994] (rm_homework_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/john/rm_homework/build/rm_homework_planner'], 'cwd': '/home/john/rm_homework/build/rm_homework_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'john'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/john'), ('OLDPWD', '/home/john'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'john'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'john'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/john-virtual-machine:@/tmp/.ICE-unix/1219,unix/john-virtual-machine:/tmp/.ICE-unix/1219'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65049924_459c_4bec_898b_86aafa4aa6a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PHB1X3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/john/rm_homework/build/rm_homework_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.585594] (rm_homework_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.587513] (rm_homework_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.588878] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/lib/rm_homework_planner/homework_planner\n'}
+[18.643358] (-) TimerEvent: {}
+[18.645801] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/package_run_dependencies/rm_homework_planner\n'}
+[18.685628] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/parent_prefix_path/rm_homework_planner\n'}
+[18.729404] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/ament_prefix_path.sh\n'}
+[18.743614] (-) TimerEvent: {}
+[18.787418] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/ament_prefix_path.dsv\n'}
+[18.819721] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/path.sh\n'}
+[18.842244] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/environment/path.dsv\n'}
+[18.843834] (-) TimerEvent: {}
+[18.878199] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.bash\n'}
+[18.926500] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.sh\n'}
+[18.944247] (-) TimerEvent: {}
+[18.952298] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.zsh\n'}
+[18.976900] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/local_setup.dsv\n'}
+[19.014019] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/package.dsv\n'}
+[19.040288] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/ament_index/resource_index/packages/rm_homework_planner\n'}
+[19.045343] (-) TimerEvent: {}
+[19.066188] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/cmake/rm_homework_plannerConfig.cmake\n'}
+[19.095132] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/cmake/rm_homework_plannerConfig-version.cmake\n'}
+[19.116914] (rm_homework_planner) StdoutLine: {'line': b'-- Symlinking: /home/john/rm_homework/install/rm_homework_planner/share/rm_homework_planner/package.xml\n'}
+[19.147237] (-) TimerEvent: {}
+[19.155484] (rm_homework_planner) CommandEnded: {'returncode': 0}
+[19.194041] (rm_homework_planner) JobEnded: {'identifier': 'rm_homework_planner', 'rc': 0}
+[19.195581] (-) EventReactorShutdown: {}

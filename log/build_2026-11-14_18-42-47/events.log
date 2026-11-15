@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (rm_homework_planner) JobQueued: {'identifier': 'rm_homework_planner', 'dependencies': OrderedDict()}
+[0.000447] (rm_homework_planner) JobStarted: {'identifier': 'rm_homework_planner'}
+[0.030218] (rm_homework_planner) JobProgress: {'identifier': 'rm_homework_planner', 'progress': 'cmake'}
+[0.030888] (rm_homework_planner) JobProgress: {'identifier': 'rm_homework_planner', 'progress': 'build'}
+[0.032831] (rm_homework_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/john/rm_homework/build/rm_homework_planner', '--', '-j2', '-l2'], 'cwd': '/home/john/rm_homework/build/rm_homework_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'john'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/john'), ('OLDPWD', '/home/john'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'john'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'john'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/john-virtual-machine:@/tmp/.ICE-unix/1219,unix/john-virtual-machine:/tmp/.ICE-unix/1219'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/65049924_459c_4bec_898b_86aafa4aa6a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PHB1X3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/john/rm_homework/build/rm_homework_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097052] (-) TimerEvent: {}
+[0.198880] (-) TimerEvent: {}
+[0.245050] (rm_homework_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target homework_planner\x1b[0m\n'}
+[0.300862] (-) TimerEvent: {}
+[0.333474] (rm_homework_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/homework_planner.dir/src/planner_node.cpp.o\x1b[0m\n'}
+[0.401422] (-) TimerEvent: {}
+[0.503892] (-) TimerEvent: {}
+[0.605211] (-) TimerEvent: {}
+[0.707151] (-) TimerEvent: {}
+[0.808258] (-) TimerEvent: {}
+[0.909506] (-) TimerEvent: {}
+[1.011435] (-) TimerEvent: {}
+[1.112940] (-) TimerEvent: {}
+[1.213733] (-) TimerEvent: {}
+[1.314420] (-) TimerEvent: {}
+[1.415421] (-) TimerEvent: {}
+[1.516744] (-) TimerEvent: {}
+[1.617485] (-) TimerEvent: {}
+[1.718241] (-) TimerEvent: {}
+[1.819781] (-) TimerEvent: {}
+[1.921808] (-) TimerEvent: {}
+[2.024731] (-) TimerEvent: {}
+[2.127154] (-) TimerEvent: {}
+[2.228179] (-) TimerEvent: {}
+[2.330970] (-) TimerEvent: {}
+[2.432740] (-) TimerEvent: {}
+[2.533722] (-) TimerEvent: {}
+[2.637414] (-) TimerEvent: {}
+[2.740753] (-) TimerEvent: {}
+[2.841331] (-) TimerEvent: {}
+[2.943396] (-) TimerEvent: {}
+[3.045896] (-) TimerEvent: {}
+[3.146821] (-) TimerEvent: {}
+[3.247729] (-) TimerEvent: {}
+[3.349089] (-) TimerEvent: {}
+[3.450485] (-) TimerEvent: {}
+[3.552902] (-) TimerEvent: {}
+[3.654243] (-) TimerEvent: {}
+[3.755334] (-) TimerEvent: {}
+[3.858816] (-) TimerEvent: {}
+[3.959935] (-) TimerEvent: {}
+[4.061432] (-) TimerEvent: {}
+[4.163741] (-) TimerEvent: {}
+[4.264589] (-) TimerEvent: {}
+[4.366786] (-) TimerEvent: {}
+[4.467800] (-) TimerEvent: {}
+[4.569747] (-) TimerEvent: {}
+[4.674679] (-) TimerEvent: {}
+[4.775491] (-) TimerEvent: {}
+[4.876459] (-) TimerEvent: {}
+[4.979220] (-) TimerEvent: {}
+[5.080318] (-) TimerEvent: {}
+[5.181753] (-) TimerEvent: {}
+[5.283191] (-) TimerEvent: {}
+[5.384989] (-) TimerEvent: {}
+[5.442043] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:10:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointStamper\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KPointStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.442655] (rm_homework_planner) StderrLine: {'line': b'   10 |     using Click = geometry_msgs::msg::\x1b[01;31m\x1b[KPointStamper\x1b[m\x1b[K;\n'}
+[5.443234] (rm_homework_planner) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.443618] (rm_homework_planner) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KPointStamped\x1b[m\x1b[K\n'}
+[5.444211] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KHomeworkerPlanner\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.444677] (rm_homework_planner) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[KHomeworkerPlanner\x1b[m\x1b[K() : Node("HomeworkPlannner"){\n'}
+[5.444781] (rm_homework_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.444868] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:26:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClick\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.444962] (rm_homework_planner) StderrLine: {'line': b'   26 |     void onClick(const \x1b[01;31m\x1b[KClick\x1b[m\x1b[K& click)\n'}
+[5.445047] (rm_homework_planner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.447708] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:54:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClick\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.447846] (rm_homework_planner) StderrLine: {'line': b'   54 |     std::optional<\x1b[01;31m\x1b[KClick\x1b[m\x1b[K> start_;\n'}
+[5.448513] (rm_homework_planner) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.448767] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:54:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.448854] (rm_homework_planner) StderrLine: {'line': b'   54 |     std::optional<Click\x1b[01;31m\x1b[K>\x1b[m\x1b[K start_;\n'}
+[5.448941] (rm_homework_planner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.457167] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClick\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.458156] (rm_homework_planner) StderrLine: {'line': b'   56 |     rclcpp::Subscription<\x1b[01;31m\x1b[KClick\x1b[m\x1b[K>::SharedPtr click_sub_;\n'}
+[5.458404] (rm_homework_planner) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.458493] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.459008] (rm_homework_planner) StderrLine: {'line': b'   56 |     rclcpp::Subscription<Click\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr click_sub_;\n'}
+[5.459357] (rm_homework_planner) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.459443] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[5.459528] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[5.459647] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[5.459732] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.459816] (rm_homework_planner) StderrLine: {'line': b'   56 |     rclcpp::Subscription<Click>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K click_sub_;\n'}
+[5.459899] (rm_homework_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.459982] (rm_homework_planner) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.460065] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:56:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclick_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.460149] (rm_homework_planner) StderrLine: {'line': b'   56 |     rclcpp::Subscription<Click>::SharedPtr \x1b[01;31m\x1b[Kclick_sub_\x1b[m\x1b[K;\n'}
+[5.460241] (rm_homework_planner) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.460328] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint HomeworkPlanner::HomeworkerPlanner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.460413] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:14:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[5.460505] (rm_homework_planner) StderrLine: {'line': b'   14 |     HomeworkerPlanner() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("HomeworkPlannner"){\n'}
+[5.461628] (rm_homework_planner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.463706] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclick_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.464952] (rm_homework_planner) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Kclick_sub_\x1b[m\x1b[K = create_subscription<Click>("/clicked_point", 10,\n'}
+[5.466155] (rm_homework_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.467543] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClick\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.467747] (rm_homework_planner) StderrLine: {'line': b'   17 |         click_sub_ = create_subscription<\x1b[01;31m\x1b[KClick\x1b[m\x1b[K>("/clicked_point", 10,\n'}
+[5.467835] (rm_homework_planner) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.468353] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:18:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClick\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[5.470833] (rm_homework_planner) StderrLine: {'line': b'   18 |         [this](\x1b[01;31m\x1b[KClick\x1b[m\x1b[K::ConstSharedPtr msg){\n'}
+[5.476762] (rm_homework_planner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.479731] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:18:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.482268] (rm_homework_planner) StderrLine: {'line': b'   18 |         [this](Click::ConstSharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K){\n'}
+[5.482811] (rm_homework_planner) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.483212] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.485252] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:19:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.487462] (-) TimerEvent: {}
+[5.488267] (rm_homework_planner) StderrLine: {'line': b'   19 |             onClick(*\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[5.488785] (rm_homework_planner) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.488955] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:19:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[5.489108] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:21\x1b[m\x1b[K,\n'}
+[5.489262] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:21\x1b[m\x1b[K,\n'}
+[5.489415] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[5.490335] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.491626] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.492746] (rm_homework_planner) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.493033] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.493188] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:21\x1b[m\x1b[K,\n'}
+[5.493342] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[5.493502] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.494843] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:32:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.495934] (rm_homework_planner) StderrLine: {'line': b'   32 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.496098] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.496250] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:23\x1b[m\x1b[K,\n'}
+[5.496402] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[5.496635] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:4\x1b[m\x1b[K:\n'}
+[5.496795] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.496949] (rm_homework_planner) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.497101] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.497253] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7\x1b[m\x1b[K,\n'}
+[5.497405] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.499140] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.500371] (rm_homework_planner) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.502371] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.502775] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[5.502984] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[5.503143] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[5.503296] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[5.503450] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.504656] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.505881] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.507099] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.507617] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.507828] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.507981] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.508135] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.508287] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.508440] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.509731] (rm_homework_planner) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.510173] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.510327] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:24\x1b[m\x1b[K,\n'}
+[5.510480] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[5.510687] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[5.510845] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[5.511004] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.511165] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.511317] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.511470] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.512986] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.519039] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.523216] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.525132] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.525968] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.526393] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.530139] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.530741] (rm_homework_planner) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.531142] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.531524] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:18:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KConstSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.533000] (rm_homework_planner) StderrLine: {'line': b'   18 |         [this](\x1b[01;35m\x1b[KClick::ConstSharedPtr\x1b[m\x1b[K msg){\n'}
+[5.533776] (rm_homework_planner) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.534524] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint HomeworkPlanner::HomeworkerPlanner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.536736] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KHomeworkPlanner::create_subscription<<expression error> >(const char [15], int, HomeworkPlanner::HomeworkerPlanner()::<lambda(int)>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.536856] (rm_homework_planner) StderrLine: {'line': b'   17 |         click_sub_ = \x1b[01;31m\x1b[Kcreate_subscription<Click>("/clicked_point", 10,\x1b[m\x1b[K\n'}
+[5.536957] (rm_homework_planner) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.537045] (rm_homework_planner) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K        [this](Click::ConstSharedPtr msg){\x1b[m\x1b[K\n'}
+[5.537128] (rm_homework_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[5.537214] (rm_homework_planner) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K            onClick(*msg);\x1b[m\x1b[K\n'}
+[5.537297] (rm_homework_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                      \n'}
+[5.537379] (rm_homework_planner) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K        })\x1b[m\x1b[K;\n'}
+[5.537462] (rm_homework_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~\x1b[m\x1b[K                                      \n'}
+[5.537545] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.537663] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.537747] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.537830] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.537912] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.537997] (rm_homework_planner) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[5.538081] (rm_homework_planner) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.538163] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.538246] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:17:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.538328] (rm_homework_planner) StderrLine: {'line': b'   17 |         click_sub_ = \x1b[01;31m\x1b[Kcreate_subscription<Click>("/clicked_point", 10,\x1b[m\x1b[K\n'}
+[5.538421] (rm_homework_planner) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.538503] (rm_homework_planner) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K        [this](Click::ConstSharedPtr msg){\x1b[m\x1b[K\n'}
+[5.539896] (rm_homework_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[5.540498] (rm_homework_planner) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K            onClick(*msg);\x1b[m\x1b[K\n'}
+[5.541115] (rm_homework_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K                      \n'}
+[5.541756] (rm_homework_planner) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K        })\x1b[m\x1b[K;\n'}
+[5.542222] (rm_homework_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~\x1b[m\x1b[K                                      \n'}
+[5.542309] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:23:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.542408] (rm_homework_planner) StderrLine: {'line': b'   23 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[5.542495] (rm_homework_planner) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.542608] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HomeworkPlanner::onClick(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.542694] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:28:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.542805] (rm_homework_planner) StderrLine: {'line': b'   28 |         if(!start_ || start_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kheader.frame_id != click.header.frame_id){\n'}
+[5.542917] (rm_homework_planner) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.543028] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:28:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kheader\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.543155] (rm_homework_planner) StderrLine: {'line': b'   28 |         if(!start_ || start_->header.frame_id != click.\x1b[01;31m\x1b[Kheader\x1b[m\x1b[K.frame_id){\n'}
+[5.543268] (rm_homework_planner) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.543379] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.543490] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.545306] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.546437] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.546840] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.546946] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.547041] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.547129] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.547467] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.548745] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.549900] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.550200] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.550353] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:30:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpoint\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.550518] (rm_homework_planner) StderrLine: {'line': b'   30 |             RCLCPP_INFO(get_logger(), "Start saved : (%.2f, %.2f)", click.\x1b[01;31m\x1b[Kpoint\x1b[m\x1b[K.x, click.point.y);\n'}
+[5.550730] (rm_homework_planner) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.550884] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:30:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpoint\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.551039] (rm_homework_planner) StderrLine: {'line': b'   30 |             RCLCPP_INFO(get_logger(), "Start saved : (%.2f, %.2f)", click.point.x, click.\x1b[01;31m\x1b[Kpoint\x1b[m\x1b[K.y);\n'}
+[5.551203] (rm_homework_planner) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.551356] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:35:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kheader\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.551510] (rm_homework_planner) StderrLine: {'line': b'   35 |         path.header.frame_id = click.\x1b[01;31m\x1b[Kheader\x1b[m\x1b[K.frame_id;\n'}
+[5.553472] (rm_homework_planner) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.554502] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:42:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[5.554723] (rm_homework_planner) StderrLine: {'line': b'   42 |         pose.pose.position = start_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpoint;\n'}
+[5.554894] (rm_homework_planner) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.555049] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:45:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpoint\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.555214] (rm_homework_planner) StderrLine: {'line': b'   45 |         pose.pose.position = click.\x1b[01;31m\x1b[Kpoint\x1b[m\x1b[K;\n'}
+[5.555367] (rm_homework_planner) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.555520] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:49:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kreset\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((HomeworkPlanner*)this)->HomeworkPlanner::start_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.557289] (rm_homework_planner) StderrLine: {'line': b'   49 |         start_.\x1b[01;31m\x1b[Kreset\x1b[m\x1b[K();\n'}
+[5.558496] (rm_homework_planner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.558969] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.559189] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.559343] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.559495] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.560804] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.561491] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.561708] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.561864] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.562016] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.562174] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.562326] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.564920] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7\x1b[m\x1b[K:\n'}
+[5.565505] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:51:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpoint\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.565756] (rm_homework_planner) StderrLine: {'line': b'   51 |         RCLCPP_INFO(get_logger(), "Path published: goal (%.2f, %.2f)", click.\x1b[01;31m\x1b[Kpoint\x1b[m\x1b[K.x, click.point.y);\n'}
+[5.565938] (rm_homework_planner) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.566114] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:51:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpoint\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclick\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.566291] (rm_homework_planner) StderrLine: {'line': b'   51 |         RCLCPP_INFO(get_logger(), "Path published: goal (%.2f, %.2f)", click.point.x, click.\x1b[01;31m\x1b[Kpoint\x1b[m\x1b[K.y);\n'}
+[5.566476] (rm_homework_planner) StderrLine: {'line': b'      |                                                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.588011] (-) TimerEvent: {}
+[5.689176] (-) TimerEvent: {}
+[5.789798] (-) TimerEvent: {}
+[5.891431] (-) TimerEvent: {}
+[5.992472] (-) TimerEvent: {}
+[6.093440] (-) TimerEvent: {}
+[6.105832] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[6.106141] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[6.106298] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[6.106484] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.106707] (rm_homework_planner) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = HomeworkPlanner; _Args = {}; _Tp = HomeworkPlanner]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.108417] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = HomeworkPlanner; _Args = {}; _Tp = HomeworkPlanner; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<HomeworkPlanner>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.108922] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = HomeworkPlanner; _Alloc = std::allocator<HomeworkPlanner>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.109079] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = HomeworkPlanner; _Alloc = std::allocator<HomeworkPlanner>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.109235] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<HomeworkPlanner>; _Args = {}; _Tp = HomeworkPlanner; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.109397] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<HomeworkPlanner>; _Args = {}; _Tp = HomeworkPlanner]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.109641] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = HomeworkPlanner; _Alloc = std::allocator<HomeworkPlanner>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.109811] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = HomeworkPlanner; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.109971] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:62:50:\x1b[m\x1b[K   required from here\n'}
+[6.110128] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KHomeworkPlanner::HomeworkPlanner()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.110297] (rm_homework_planner) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[6.110472] (rm_homework_planner) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.112525] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHomeworkPlanner::HomeworkPlanner()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[6.114093] (rm_homework_planner) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KHomeworkPlanner\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[6.115281] (rm_homework_planner) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.115773] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:9:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.115951] (rm_homework_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.116131] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.116293] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.116446] (rm_homework_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/john/rm_homework/src/rm_homework_planner/src/planner_node.cpp:7\x1b[m\x1b[K:\n'}
+[6.117614] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.118811] (rm_homework_planner) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[6.119237] (rm_homework_planner) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.119392] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[6.119615] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.119786] (rm_homework_planner) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[6.119952] (rm_homework_planner) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.120122] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[6.128767] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.129065] (rm_homework_planner) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[6.129221] (rm_homework_planner) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.129395] (rm_homework_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[6.193774] (-) TimerEvent: {}
+[6.295081] (-) TimerEvent: {}
+[6.396744] (-) TimerEvent: {}
+[6.472834] (rm_homework_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/homework_planner.dir/build.make:76\xef\xbc\x9aCMakeFiles/homework_planner.dir/src/planner_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[6.473154] (rm_homework_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/homework_planner.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.474309] (rm_homework_planner) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.480873] (rm_homework_planner) CommandEnded: {'returncode': 2}
+[6.496679] (rm_homework_planner) JobEnded: {'identifier': 'rm_homework_planner', 'rc': 2}
+[6.505615] (-) TimerEvent: {}
+[6.507871] (-) EventReactorShutdown: {}
